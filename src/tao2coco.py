@@ -24,15 +24,7 @@ def get_classes(tao_path, filter_classes=True):
     train_classes = list(set([_['category_id'] for _ in train['annotations']]))
     print(f'TAO train set contains {len(train_classes)} categories.')
 
-    val = mmcv.load(osp.join(tao_path, 'validation.json'))
-    val_classes = list(set([_['category_id'] for _ in val['annotations']]))
-    print(f'TAO val set contains {len(val_classes)} categories.')
-
-    test = mmcv.load(osp.join(tao_path, 'test_categories.json'))
-    test_classes = list(set([_['id'] for _ in test['categories']]))
-    print(f'TAO test set contains {len(test_classes)} categories.')
-
-    tao_classes = set(train_classes + val_classes + test_classes)
+    tao_classes = set(train_classes)
     print(f'TAO totally contains {len(tao_classes)} categories.')
 
     tao_classes = [_ for _ in train['categories'] if _['id'] in tao_classes]
@@ -88,7 +80,7 @@ def main():
     print(f'convert with {len(classes)} classes')
 
     for file in [
-            'train.json', 'validation.json', 'test_without_annotations.json'
+            'train.json'
     ]:
         print(f'convert {file}')
         out = convert_tao(osp.join(args.tao, file), classes)
