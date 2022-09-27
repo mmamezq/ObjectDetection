@@ -337,11 +337,5 @@ class Tao:
         """
         return self._load_helper(self.vids, ids)
 
-annotation_path = r"C:\Users\monic\mmdetection\annotations-master\train_482_classes.json"
-
-tao = Tao(annotation_path)
-
-print()
-
 
 
