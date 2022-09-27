@@ -5,7 +5,7 @@ _base_ = './cascade_mask_rcnn_r50_fpn_1x_coco.py'
 dataset_type = 'CocoDataset'
 
 #Read data from tao classes
-classes_file_path = r"./data/annotations/tao_classes.txt"
+classes_file_path = r"../data/annotations/tao_classes.txt"
 file=open(classes_file_path)
 lines=file.readlines()
 
@@ -15,6 +15,7 @@ data = []
 for line in lines:
     data.append(str(line.strip()))
 
+num_classes = len(data)
 # convert list of tao classes to tuple of tao classes
 classes = tuple(data)
 
@@ -23,10 +24,9 @@ data = dict(
     workers_per_gpu=2,
     train=dict(
         type=dataset_type,
-        # explicitly add your class names to the field `classes`
         classes=classes,
-        ann_file='./data/annotations/train_482_classes.json',
-        img_prefix='./data/tao_train/frames/train'))
+        ann_file='../data/annotations/train_482_classes.json',
+        img_prefix='../data/tao_train/frames/train'))
 
 # 2. model settings
 
@@ -37,7 +37,7 @@ model = dict(
             dict(
                 type='Shared2FCBBoxHead',
                 # explicitly over-write all the `num_classes` field from default 80 to 5.
-                num_classes=5),
+                num_classes=num_classes),
             dict(
                 type='Shared2FCBBoxHead',
                 # explicitly over-write all the `num_classes` field from default 80 to 5.
