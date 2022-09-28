@@ -15,7 +15,7 @@ data = []
 for line in lines:
     data.append(str(line.strip()))
 
-num_classes = len(data)
+number_classes = len(data)
 # convert list of tao classes to tuple of tao classes
 classes = tuple(data)
 
@@ -37,14 +37,15 @@ model = dict(
             dict(
                 type='Shared2FCBBoxHead',
                 # explicitly over-write all the `num_classes` field from default 80 to 5.
-                num_classes=num_classes),
+                num_classes=number_classes),
             dict(
                 type='Shared2FCBBoxHead',
                 # explicitly over-write all the `num_classes` field from default 80 to 5.
-                num_classes=5),
+                num_classes=number_classes),
             dict(
                 type='Shared2FCBBoxHead',
                 # explicitly over-write all the `num_classes` field from default 80 to 5.
-                num_classes=5)],
+                num_classes=number_classes)],
     # explicitly over-write all the `num_classes` field from default 80 to 5.
-    mask_head=dict(num_classes=5)))
+    mask_head=dict(num_classes=number_classes)))
+
