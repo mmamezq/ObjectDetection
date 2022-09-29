@@ -72,7 +72,6 @@ def convert_tao(file, classes):
     assert len(out['annotations']) == len(raw['annotations'])
     return out
 
-
 def main():
     args = parse_args()
 

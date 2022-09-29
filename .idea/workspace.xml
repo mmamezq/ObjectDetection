@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a028126b-2f0f-4ea1-bfe8-cfb2d7098c6b" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/my_config_file.py" afterDir="false" />
+    <list default="true" id="a028126b-2f0f-4ea1-bfe8-cfb2d7098c6b" name="Changes" comment="Create function that loads a json text file and returns the object">
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/LuaAPI/CocoApi.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/LuaAPI/MaskApi.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/LuaAPI/cocoDemo.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/LuaAPI/env.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/LuaAPI/init.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/LuaAPI/rocks/coco-scm-1.rockspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/MatlabAPI/CocoApi.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/MatlabAPI/CocoEval.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/MatlabAPI/CocoUtils.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/MatlabAPI/MaskApi.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/MatlabAPI/cocoDemo.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/MatlabAPI/evalDemo.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/MatlabAPI/gason.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/MatlabAPI/private/gasonMex.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/MatlabAPI/private/gasonMex.mexa64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/MatlabAPI/private/gasonMex.mexmaci64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/MatlabAPI/private/getPrmDflt.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/PythonAPI/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/PythonAPI/pycocoDemo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/PythonAPI/pycocoEvalDemo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/PythonAPI/pycocotools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/PythonAPI/pycocotools/_mask.pyx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/PythonAPI/pycocotools/coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/PythonAPI/pycocotools/cocoeval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/PythonAPI/pycocotools/mask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/PythonAPI/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/common/gason.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/common/gason.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/common/maskApi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/common/maskApi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cocoapi-master/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VisualizeImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pycocoDemo.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoadAnnotations.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoadAnnotations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tao2coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tao2coco.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +53,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -25,20 +64,17 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2F6peX3TKeARzulXmOwtkN1AdK8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/monic/PycharmProjects/objectdetection&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\monic\PycharmProjects\ObjectDetection2\src" />
@@ -53,6 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663822483789</updated>
+      <workItem from="1664490293717" duration="920000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <created>1663875194174</created>
@@ -82,8 +119,74 @@
       <option name="project" value="LOCAL" />
       <updated>1663876375922</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first commit">
+      <created>1664238256225</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664238256225</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Remove file path and incorrect code">
+      <created>1664312933115</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664312933115</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add tao2coco to src folder">
+      <created>1664313354272</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664313354272</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add tao2coco to src folder">
+      <created>1664313817279</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664313817279</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update config file fields such as annotation file path and imgs path">
+      <created>1664315954183</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664315954183</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add Tao toolkit to project">
+      <created>1664407326579</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664407326579</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Check all categories and annotation id's match">
+      <created>1664407354680</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664407354680</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add description to script - note, script is used to display annotations and test certain requirements">
+      <created>1664475601364</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664475601364</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Create function that loads a json text file and returns the object">
+      <created>1664475642068</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664475642068</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -95,10 +198,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add files" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Remove file path and incorrect code" />
+    <MESSAGE value="Add tao2coco to src folder" />
+    <MESSAGE value="Update config file fields such as annotation file path and imgs path" />
+    <MESSAGE value="Add Tao toolkit to project" />
+    <MESSAGE value="Check all categories and annotation id's match" />
+    <MESSAGE value="Add description to script - note, script is used to display annotations and test certain requirements" />
+    <MESSAGE value="Create function that loads a json text file and returns the object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create function that loads a json text file and returns the object" />
   </component>
 </project>
