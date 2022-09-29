@@ -1,5 +1,7 @@
 import json
 
+# TEST SCRIPT USED TO DISPLAY VISUALIZATIONS - MAY BE REMOVED LATER
+
 # Opening JSON file
 f = open(r'C:\Users\monic\mmdetection\mmtracking\data\tao\annotations-master\train_482_classes.json')
 data = json.load(f)
@@ -9,7 +11,6 @@ for i in range(len(data['categories'])):
 print("Transformed TAO2COCO JSON Object Keys: ")
 for key, value in data.items():
     print(key)
-
 
 # Checking if all category_id in annotations belong to id in categories
 
@@ -27,6 +28,10 @@ for val in category_id:
     if (val not in id):
         print(val not in id)
         incorrect_categories.append(val)
+
+print("Transformed TAO2COCO JSON Object Keys: ")
+for key, value in data.items():
+    print(key)
 
 # Closing file
 f.close()
