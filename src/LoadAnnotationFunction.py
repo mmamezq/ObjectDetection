@@ -7,3 +7,9 @@ def LoadAnnotations(annotation_path):
     # Closing file
     f.close()
     return data
+
+def returnAnnotationKeys(data):
+    keys = []
+    for key, value in data.items():
+        keys.append(key)
+    return keys
