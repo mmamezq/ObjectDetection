@@ -1,3 +1,19 @@
+"""
+
+This is the script (in progress) used to run the training portion
+from the command line
+
+From terminal:
+
+1. open virtual environment
+2. Open mmdet_files directory
+3. Run the following script
+
+python tools/train.py configs/My_Config_Files/Quickrun2_TrainWithCustomizedDatasetConfig.py
+
+
+"""
+
 # The new config inherits a base config to highlight the necessary modification
 _base_ = './mask_rcnn_r50_caffe_fpn_mstrain-poly_1x_coco.py'
 

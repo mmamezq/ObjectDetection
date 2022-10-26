@@ -3,7 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$USER_HOME$/ObjectDetection" />
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.8 (openmmlab_fromsource)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (openmmlab)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
