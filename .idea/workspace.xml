@@ -12380,7 +12380,7 @@
       <workItem from="1666566926739" duration="8358000" />
       <workItem from="1666657161223" duration="6706000" />
       <workItem from="1666721996639" duration="8061000" />
-      <workItem from="1666803604072" duration="297000" />
+      <workItem from="1666803604072" duration="465000" />
     </task>
     <task id="LOCAL-00001" summary="Add files">
       <created>1663875194174</created>
@@ -12473,7 +12473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664475642068</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add scripts and tutorials">
+      <created>1666807301937</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666807301937</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -12506,7 +12513,8 @@
     <MESSAGE value="Check all categories and annotation id's match" />
     <MESSAGE value="Add description to script - note, script is used to display annotations and test certain requirements" />
     <MESSAGE value="Create function that loads a json text file and returns the object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create function that loads a json text file and returns the object" />
+    <MESSAGE value="Add scripts and tutorials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add scripts and tutorials" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ObjectDetection2$Tutorial1_InferenceAndTestOnExistingModelData__1_.coverage" NAME="Tutorial1_InferenceAndTestOnExistingModelData (1) Coverage Results" MODIFIED="1666583664909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorials" />
